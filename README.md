@@ -1,6 +1,6 @@
 # Module 5: Pymaceuticals Inc. - Data Analysis
 
-## By: Anqa Javed
+## By: **Anqa Javed**
 
 ### **Background:**
 Pymaceuticals Inc. is a pharmaceutical company specializing in anti-cancer medications. The dataset provided contains data from an animal study to test the effectiveness of various drugs in treating **squamous cell carcinoma (SCC)** in mice. The study tracks tumor development over a period of 45 days.
@@ -14,6 +14,7 @@ The main objectives of this assignment are to:
 - Visualize the results using various types of charts.
 
 ### **Steps in the Analysis:**
+
 1. **Data Preparation**:
    - Merged the **mouse metadata** and **study results** into a single DataFrame.
    - Cleaned the data by removing duplicate entries based on `Mouse ID` and `Timepoint`.
@@ -37,7 +38,7 @@ The main objectives of this assignment are to:
 - The **correlation** between **mouse weight** and **tumor volume** for the **Capomulin** regimen was **moderately positive**, though not strong enough to suggest a direct causal relationship.
 
 ### **Repository Structure:**
-- `pymaceuticals_starter.ipynb`: Jupyter notebook containing all the analysis and visualizations.
-- `data/Mouse_metadata.csv`: Mouse metadata CSV file.
-- `data/Study_results.csv`: Study results CSV file.
-- `anaconda_projects/db/project_filebrowser.db`: Database used in the analysis.
+- **`pymaceuticals_starter.ipynb`**: Jupyter notebook containing all the analysis and visualizations.
+- **`data/Mouse_metadata.csv`**: Mouse metadata CSV file.
+- **`data/Study_results.csv`**: Study results CSV file.
+- **`anaconda_projects/db/project_filebrowser.db`**: Database used in the analysis.
